@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>GPC Easter Gallery 2023</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="nav-link">
+            <a href="/#station-10">Stations of the Cross</a>
+        </div>
+        <div class="nav-link">
+            <p> > </p>
+        </div>
+        <div class="nav-link">
+            <a href="">Station 10</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1 class="section">Station 10</h1>
+            <h2 class="title">JESUS DIES</h2>
+        </div>
+        <div class="img-section">
+            <img src="{{ url_for('static', filename='imgs/stations10.png') }}" alt="" class="main-img">
+        </div>
+        <div class="reading-container">
+            <div class="read-title">
+                <h2>Reading:</h2>
+            </div>
+            <div class="reading-content">
+                <p>"Greater love has no one than this: to lay down one's life for one's friends." John 15:13</p>
+            </div>
+        </div>
+        <div class="reflection-container">
+            <div class="read-title">
+                <h2>Reflection:</h2>
+            </div>
+            <div class="reading-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque neque odit ea ratione consequatur placeat porro eligendi est? Harum est amet quos labore soluta accusamus facere dolor odio veritatis deserunt ducimus cupiditate nihil ipsa tempora praesentium molestias necessitatibus, ratione voluptas recusandae? Labore natus doloremque possimus consequatur blanditiis nobis voluptate eaque!</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="/station/11" class="next-button"> Next Station -></a>
+        </div>
+    </div>
+</body>
+</html>

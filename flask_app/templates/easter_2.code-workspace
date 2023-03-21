@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../easter_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "easter_2"
+	}
+}

@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Dashbaord Page */
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+}
+
+.gallery-text {
+    width: 100%;
+    color: white;
+    background-color: #BF9F38;
+    text-align: center;
+}
+
+/* Nav Bar */
+.nav-container {
+    padding: 1%;
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 4%;
+}
+
+.nav-link {
+    margin: 0.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #BF9F38;
+}
+
+
+/* Main Content */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Main Image */
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+}
+
+.main-img {
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+}
+
+/* Reading Section */
+.reading-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    background-color: #F4F4F4;
+}
+
+.reading-content {
+    text-align: left;
+    font-size: large;
+}
+
+/* Reflection Section */
+.reflection-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+/* Next Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.next-button {
+    height: 100%;
+    width: 70%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    background-color: #BF9F38;
+    border-radius: 5px;
+}
+
+/* Invite Page */
+.invite-container {
+    margin: 20% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.invite-content {
+    text-align: center;
+}
+
+.invite-link-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.invite-link {
+    color: white;
+    text-align: center;
+    background-color: #BF9F38;
+}
