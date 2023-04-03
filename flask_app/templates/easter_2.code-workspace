@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../../easter_project"
+		},
+		{
+			"path": "../../../../dumps/Dump20230308"
 		}
 	],
 	"settings": {
